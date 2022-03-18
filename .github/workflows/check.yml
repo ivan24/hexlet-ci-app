@@ -3,10 +3,9 @@ name: node js ci
 on:
   - push
 jobs:
-  brain-games-build:
+  node-js-ci:
     runs-on: ubuntu-latest
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
 
