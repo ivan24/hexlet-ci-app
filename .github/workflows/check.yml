@@ -1,4 +1,4 @@
-name: PHP CI
+name: node js ci
 
 on:
   - push
@@ -13,7 +13,7 @@ jobs:
       - name: Setup node-js
         uses: actions/setup-node@v2
         with:
-          php-version: '14'
+          node-version: '14'
 
       - name: Setup project
         run: make setup
